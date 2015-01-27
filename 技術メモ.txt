@@ -1,0 +1,16 @@
+・バックグランドでキー入力を取得　→　キーロガー
+以下の関数ポインタを使用する。
+[System.Runtime.InteropServices.DllImport("user32.dll")]
+private static extern IntPtr GetAsyncKeyState(IntPtr nVirtKey);
+
+素直技術研究所
+http://sunaolabo.blog32.fc2.com/blog-category-3.html
+
+
+NeuroViewのコマンド
+Altキーショートカットコマンド
+・Alt　→　R 計測開始
+・Alt　→　S 計測終了+データ保存
+・Alt　→　D 計測終了+データ破棄
+
+
